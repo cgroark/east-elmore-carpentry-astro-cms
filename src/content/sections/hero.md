@@ -1,7 +1,7 @@
 ---
 title: East Elmore Carpentry
 img: /images/counters.webp
-description: "East Elmore Carpentry offers many services, including all these:"
+description: "East Elmore Carpentry offers many services, including:"
 service_items:
   - Fence
   - Wood Floors
