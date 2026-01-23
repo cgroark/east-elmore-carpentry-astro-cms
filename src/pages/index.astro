@@ -269,15 +269,15 @@ const projects = projectsContent.frontmatter;
 	}
 
 	h1 {
-		font-size: 54px;
+		font-size: clamp(28px, 5vw, 64px);
     text-align: center;
     border-bottom: 3px solid #8fa78a;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     margin-bottom: 30px;
 	}
 
 	h2 {
-		font-size: 36px;
+		font-size: clamp(24px, 4vw, 36px);
 	}
 
 	img.header-image {
@@ -645,15 +645,6 @@ const projects = projectsContent.frontmatter;
 		.hero-section {
 			min-height: 100vh;
 			padding-top: 120px;
-		}
-
-		h1 {
-			font-size: 28px;
-		}
-
-		h2 {
-			font-size: 24px;
-			white-space: normal;
 		}
 
 		.hero-section p {
