@@ -1,0 +1,87 @@
+backend:
+  name: git-gateway
+  branch: master
+
+# For username/password auth (no GitHub required)
+site_url: https://placeholder.netlify.app/
+display_url: https://placeholder.netlify.app/
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "sections"
+    label: "Page Sections"
+    files:
+      - label: "Hero Section"
+        name: "hero"
+        file: "src/content/sections/hero.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Image", name: "img", widget: "image"}
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Background Image", name: "background_image", widget: "image", required: false }
+
+      - label: "About Section"
+        name: "about"
+        file: "src/content/sections/about.md"
+        fields:
+          - { label: "Section Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+          - { label: "Image", name: "image", widget: "image", required: false }
+
+      - label: "Parallax Section"
+        name: "parallax"
+        file: "src/content/sections/parallax.md"
+        fields:
+          - { label: "Content", name: "body", widget: "markdown" }
+          - { label: "Background Image", name: "image", widget: "image", required: false }
+
+      - label: "Images Section"
+        name: "images"
+        file: "src/content/sections/images.md"
+        fields:
+        - label: "Image Items"
+          name: "image_items"
+          widget: "list"
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Text", name: "text", widget: "string"}
+            - {label: "Image", name: "image", widget: "image", required: false }
+
+      - label: "Contact Section"
+        name: "contact"
+        file: "src/content/sections/contact.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Phone Number", name: "phoneString", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Button Text", name: "ctaText", widget: "string" }
+          - { label: "Button Link", name: "cta", widget: "string" }
+
+      - label: "Footer Section"
+        name: "footer"
+        file: "src/content/sections/footer.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Copyright", name: "copyright", widget: "string" }
+          - { label: "Owner", name: "owner", widget: "string" }
+          - { label: "Owner link", name: "ownerLink", widget: "string"}
+
+  - name: "navigation"
+    label: "Navigation"
+    files:
+      - label: "Main Navigation"
+        name: "main-nav"
+        file: "src/content/navigation/main.md"
+        fields:
+          - {label: "Logo", name: "logo", widget: "image"}
+          - label: "Navigation Items"
+            name: "nav_items"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Link", name: "href", widget: "string"}
+
+
