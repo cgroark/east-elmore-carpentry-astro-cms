@@ -43,7 +43,7 @@ const projects = projectsContent.frontmatter;
   </nav>
 
   <!-- Hero Section -->
-  <section id="hero" class="hero-section section reveal"
+  <section id="hero" class="hero-section section reveal contrain"
 	>
 		<h1>{hero.title}</h1>
 		<div class="flex-section-center">
@@ -65,7 +65,7 @@ const projects = projectsContent.frontmatter;
 		</div>
   </section>
 
-	<section id="about" class="reveal">
+	<section id="about" class="reveal contrain">
 		<!-- About Section -->
 		<section class="body-section about">
 			<div class="about-title">
@@ -81,10 +81,10 @@ const projects = projectsContent.frontmatter;
 	</section>
 
 	<!-- Parallax and Services Section -->
-	<section  id="services" class="parallax-section reveal"
+	<section  id="services" class="parallax-section"
 		style={parallax.image ? `background-image: url(${parallax.image})`  : ''}
 	>
-		<div class="parallax-content">
+		<div class="parallax-content reveal">
 			<div>
 				<h2>{parallax.header}</h2>
 				<ul class="desc-list services">
@@ -109,7 +109,7 @@ const projects = projectsContent.frontmatter;
 	</section>
 
 	<!-- Projects Section -->
-	<section class="body-section reveal" id="projects">
+	<section class="body-section reveal contrain" id="projects">
 		{projects.project_items.map(item => (
 			<div class="project-item">
 				<div class="text">
@@ -124,7 +124,7 @@ const projects = projectsContent.frontmatter;
 	</section>
 
 	<!-- Contact Section -->
-  <section id="contact" class="contact-section section reveal">
+  <section id="contact" class="contact-section section reveal contrain">
 		<img src={contact.logo} />
 		<div class="contact-content">
 			<div>
@@ -247,7 +247,7 @@ const projects = projectsContent.frontmatter;
 		background-color: #7c6e50;
 	}
 
-	section {
+	section.contrain {
 		max-width: 1400px;
 		margin: auto;
 	}
