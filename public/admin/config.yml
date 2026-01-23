@@ -3,8 +3,8 @@ backend:
   branch: master
 
 # For username/password auth (no GitHub required)
-site_url: https://placeholder.netlify.app/
-display_url: https://placeholder.netlify.app/
+site_url: https://east-elmore-carpentry.netlify.app/
+display_url: https://east-elmore-carpentry.netlify.app/
 
 media_folder: "public/images"
 public_folder: "/images"
