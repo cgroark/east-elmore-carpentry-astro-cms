@@ -18,10 +18,10 @@ collections:
         file: "src/content/sections/hero.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Subtitle", name: "subtitle", widget: "string" }
           - { label: "Image", name: "img", widget: "image"}
-          - { label: "Description", name: "description", widget: "string" }
-          - { label: "Background Image", name: "background_image", widget: "image", required: false }
+          - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Service Items", name: "service_items", widget: "string", required: false }
+          - { label: "CTA Text", name: "ctaText", widget: "string" }
 
       - label: "About Section"
         name: "about"
@@ -31,34 +31,37 @@ collections:
           - { label: "Content", name: "body", widget: "markdown" }
           - { label: "Image", name: "image", widget: "image", required: false }
 
-      - label: "Parallax Section"
+      - label: "Services Section"
         name: "parallax"
         file: "src/content/sections/parallax.md"
         fields:
-          - { label: "Content", name: "body", widget: "markdown" }
+          - { label: "Header", name: "header", widget: "string" }
+          - { label: "Overview", name: "project_overview", widget: "string" }
+          - { label: "Service Area", name: "service_area", widget: "string" }
+          - { label: "CTA Text", name: "ctaText", widget: "string" }
           - { label: "Background Image", name: "image", widget: "image", required: false }
 
-      - label: "Images Section"
-        name: "images"
-        file: "src/content/sections/images.md"
+      - label: "Projects Section"
+        name: "projects"
+        file: "src/content/sections/projects.md"
         fields:
-        - label: "Image Items"
-          name: "image_items"
+        - label: "Project Items"
+          name: "project_items"
           widget: "list"
           fields:
             - {label: "Title", name: "title", widget: "string"}
-            - {label: "Text", name: "text", widget: "string"}
+            - {label: "Content", name: "content", widget: "string"}
             - {label: "Image", name: "image", widget: "image", required: false }
 
       - label: "Contact Section"
         name: "contact"
         file: "src/content/sections/contact.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Phone Number", name: "phoneString", widget: "string" }
           - { label: "Email", name: "email", widget: "string" }
           - { label: "Button Text", name: "ctaText", widget: "string" }
           - { label: "Button Link", name: "cta", widget: "string" }
+          - { label: "Image", name: "logo", widget: "image", required: false }
 
       - label: "Footer Section"
         name: "footer"

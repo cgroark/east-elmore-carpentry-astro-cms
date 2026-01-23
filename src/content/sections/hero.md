@@ -10,6 +10,5 @@ service_items:
   - Drywall Repair
   - Finish work
   - Decks
-header_image: /images/matt-josie.webp
 ctaText: Get In Touch
 ---
