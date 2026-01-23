@@ -1,6 +1,5 @@
 ---
 title: East Elmore Carpentry
-subtitle: ''
 img: /images/counters.webp
 description: |
   East Elmore Carpentry offers many services, including:
