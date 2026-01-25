@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Import all sections
+
+const projectsContent = await import('../content/sections/projects.md');
+const projects = projectsContent.frontmatter;
+---
+
+<Layout >
+
+	<!-- Projects Section -->
+	<section class="body-section reveal contrain" id="projects">
+		{projects.project_items.map(item => (
+			<div class="project-item">
+				<div class="text">
+					<h3>{item.title}</h3>
+					<p>{item.content}</p>
+				</div>
+				<div class="image">
+					<img src={item.image} />
+				</div>
+			</div>
+		))}
+	</section>
+</Layout>

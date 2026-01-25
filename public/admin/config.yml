@@ -59,8 +59,6 @@ collections:
         fields:
           - { label: "Phone Number", name: "phoneString", widget: "string" }
           - { label: "Email", name: "email", widget: "string" }
-          - { label: "Button Text", name: "ctaText", widget: "string" }
-          - { label: "Button Link", name: "cta", widget: "string" }
           - { label: "Image", name: "logo", widget: "image", required: false }
 
       - label: "Footer Section"
