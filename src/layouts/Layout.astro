@@ -33,53 +33,15 @@ const navigation = navContent.frontmatter;
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
-    <!-- Navigation -->
-    <nav class="main-nav">
-      <div class="nav-container">
-        <a href="/#hero" class="logo-nav">
-          <img src={navigation.logo} />
-        </a>
-
-        <!-- Hamburger button -->
-        <button class="nav-toggle" aria-label="Toggle navigation">
-          <span class="icon icon-menu"><ListIcon  size={32} /></span>
-          <span class="icon icon-close"><XIcon size={32} /></span>
-        </button>
-
-        <ul class="nav-links">
-          {navigation.nav_items.map(item => (
-            <li><a href={item.href}>{item.label}</a></li>
-          ))}
-        </ul>
-      </div>
-    </nav>
+    <!-- ADD NAV BACK -->
     <!-- Page Content Rendered -->
     <slot />
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section section reveal contrain">
-      <img src={contact.logo} />
-      <div class="contact-content">
-        <div>
-          <a href={`tel:${contact.phone}`}>
-            <PhoneOutgoingIcon size={32} />
-            {contact.phoneString}
-          </a>
-        </div>
-        <div>
-          <a href={`mailto:${contact.email}`}>
-            <EnvelopeIcon size={32} />
-            {contact.email}
-          </a>
-        </div>
-      </div>
-    </section>
 
-    <!-- Footer Section -->
-    <section id="footer" class="footer-section">
-      <p>{footer.copyright}</p>
-      <p>{footer.owner} <a href={footer.ownerLink} target="_blank">{footer.ownerSite}</a></p>
-    </section>
+      <!-- ADD CONTACT BACK -->
+
+      <!-- ADD FOOTER BACK -->
+
 
     <script>
       if (window.netlifyIdentity) {
@@ -452,6 +414,10 @@ const navigation = navContent.frontmatter;
 		border: solid 2px #f3efe6;
 		color: #f3efe6;
 	}
+
+  #contact-text {
+    text-align: center;
+  }
 
   .contact-section {
 		border-top: solid 5px #f3efe6;

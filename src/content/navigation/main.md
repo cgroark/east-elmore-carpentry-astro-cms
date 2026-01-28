@@ -2,11 +2,11 @@
 logo: "/images/EEC+Logo+01.webp"
 nav_items:
   - label: "About"
-    href: "/#about"
+    href: "/about#about"
   - label: "Services"
-    href: "/#services"
+    href: "/about#services"
   - label: "Projects"
     href: "/projects"
   - label: "Contact"
-    href: "/#contact"
+    href: "/about#contact"
 ---
