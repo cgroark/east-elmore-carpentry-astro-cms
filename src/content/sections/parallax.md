@@ -78,7 +78,7 @@ service_area:
   - Wolcott
   - Woodbury
   - Worcester
-ctaText: Request an Estimate
+ctaText: Contact Me
 map_image: ""
 image: /images/grain-unsplash.jpg
 ---
