@@ -45,13 +45,17 @@ collections:
         name: "projects"
         file: "src/content/sections/projects.md"
         fields:
+        - { label: "Title", name: "title", widget: "string" }
         - label: "Project Items"
           name: "project_items"
           widget: "list"
           fields:
             - {label: "Title", name: "title", widget: "string"}
-            - {label: "Content", name: "content", widget: "string"}
-            - {label: "Image", name: "image", widget: "image", required: false }
+            - {label: "Content", name: "content", widget: "string", required: false}
+            - project_images:
+              - {label: "Full Image", name: "full_image", widget: "image" }
+              - {label: "Thumbnail Image", name: "thumbnail_image", widget: "image", required: false }
+              - {label: "Caption", name: "caption", widget: "string", required: false}
 
       - label: "Contact Section"
         name: "contact"
