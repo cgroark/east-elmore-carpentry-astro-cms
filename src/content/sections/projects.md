@@ -14,7 +14,7 @@ project_items:
         full_image: /images/ricky-kharawala-4dVDBMAho8c-unsplash.jpg
         caption: Caption sample text3
   - title: Project 2
-    content:
+    content: null
     project_images:
       - thumbnail_image: /images/benjamin-lehman-EJU7A__krX0-unsplash.jpg
         full_image: /images/benjamin-lehman-EJU7A__krX0-unsplash.jpg
@@ -46,7 +46,5 @@ project_items:
       - thumbnail_image: /images/craft-kitties-GfYA6q5ESLI-unsplash.jpg
         full_image: /images/craft-kitties-GfYA6q5ESLI-unsplash.jpg
         caption: Caption sample text2
-      - thumbnail_image: /images/ricky-kharawala-4dVDBMAho8c-unsplash.jpg
-        full_image: /images/ricky-kharawala-4dVDBMAho8c-unsplash.jpg
-        caption: Caption sample text3
+      - full_image: /images/simon-kadula-2ovbrbfqr0y-unsplash.jpg
 ---
