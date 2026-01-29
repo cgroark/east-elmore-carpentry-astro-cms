@@ -52,10 +52,13 @@ collections:
           fields:
             - {label: "Title", name: "title", widget: "string"}
             - {label: "Content", name: "content", widget: "string", required: false}
-            - project_images:
-              - {label: "Full Image", name: "full_image", widget: "image" }
-              - {label: "Thumbnail Image", name: "thumbnail_image", widget: "image", required: false }
-              - {label: "Caption", name: "caption", widget: "string", required: false}
+            - label: "Project Images"
+              name: "project_images"
+              widget: "list"
+              fields:
+                - {label: "Full Image", name: "full_image", widget: "image" }
+                - {label: "Thumbnail Image", name: "thumbnail_image", widget: "image", required: false }
+                - {label: "Caption", name: "caption", widget: "string", required: false}
 
       - label: "Contact Section"
         name: "contact"
