@@ -1,10 +1,8 @@
 ---
 header: Carpentry Services
-image: /images/grain-unsplash.jpg
-project_overview: |
-  I generally stay within an hour of Elmore, but feel free to reach out if you’re a bit further out. My normal service area includes:
-ctaText: Request an Estimate
-map_image: /images/Map-01.jpg
+project_overview: >
+  I generally stay within an hour of Elmore, but feel free to reach out if
+  you’re a bit further out. My normal service area includes:
 service_area:
   - Albany
   - Bakersfield
@@ -80,4 +78,7 @@ service_area:
   - Wolcott
   - Woodbury
   - Worcester
+ctaText: Request an Estimate
+map_image: ""
+image: /images/grain-unsplash.jpg
 ---
