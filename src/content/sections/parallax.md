@@ -4,13 +4,80 @@ image: /images/grain-unsplash.jpg
 project_overview: |
   I generally stay within an hour of Elmore, but feel free to reach out if you’re a bit further out. My normal service area includes:
 ctaText: Request an Estimate
+map_image: /images/Map-01.jpg
 service_area:
+  - Albany
+  - Bakersfield
+  - Barnet
   - Barre
+  - Barton
+  - Belvidere
+  - Berlin
+  - Bolton
+  - Boltonville
+  - Brownington
+  - Burke
+  - Cabot
+  - Calais
+  - Cambridge
+  - Charleston
+  - Coventry
+  - Craftsbury
+  - Danville
+  - Derby
+  - Duxbury
+  - Eden
   - Elmore
+  - Enosburg
+  - Essex Junction
+  - Fairfax
+  - Fairfield
+  - Fayston
+  - Fletcher
+  - Glover
+  - Greensboro
+  - Groton
+  - Hardwick
   - Hyde Park
+  - Irasburg
+  - Jay
+  - Jeffersonville
+  - Jericho
+  - Johnson
+  - Lowell
+  - Lyndon
+  - Marshfield
+  - Middlesex
+  - Montgomery
   - Montpelier
+  - Moretown
   - Morrisville
+  - Moscow
+  - Newbury
+  - Newport
+  - Northfield
+  - Orange
+  - Peacham
+  - Plainfield
+  - Richford
+  - Richmond
+  - Ryegate
+  - Sheffield
+  - St. Johnsbury
+  - Stannard
   - Stowe
+  - Sutton
+  - Topsham
+  - Troy
+  - Underhill
+  - Waitsfield
+  - Walden
+  - Waterbury
+  - Waterville
+  - Westfield
+  - Westmore
+  - Williamstown
   - Wolcott
-  - etc…
+  - Woodbury
+  - Worcester
 ---
