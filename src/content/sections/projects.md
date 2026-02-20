@@ -1,17 +1,12 @@
 ---
 title: Recent Projects
 project_items:
-  - title: Project 1
+  - title: Slate Floor for Wood Stove & Patio Door Entry
     content: Quick sample description
     project_images:
+      - full_image: /images/_mg_4144-temp.jpg
       - full_image: /images/_mg_4149-temp.jpg
         caption: slate tile floor
-      - thumbnail_image: /images/benjamin-lehman-EJU7A__krX0-unsplash.jpg
-        full_image: /images/benjamin-lehman-EJU7A__krX0-unsplash.jpg
-        caption: Caption sample text
-      - thumbnail_image: /images/craft-kitties-GfYA6q5ESLI-unsplash.jpg
-        full_image: /images/craft-kitties-GfYA6q5ESLI-unsplash.jpg
-        caption: Caption sample text2
   - title: Project 2
     content: null
     project_images:
