@@ -1,8 +1,8 @@
 ---
 title: Recent Projects
 project_items:
-  - title: Slate Floor for Wood Stove & Patio Door Entry
-    content: Quick sample description
+  - title: SLATE FLOOR
+    content: Slate floor for wood stove & patio door entry in new construction.
     project_images:
       - full_image: /images/_mg_4144-temp.jpg
       - full_image: /images/_mg_4149-temp.jpg
