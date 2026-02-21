@@ -4,7 +4,7 @@ project_items:
   - title: Slate Floor - New Construction
     content: ""
     project_images:
-      - full_image: /images/_mg_4149-temp.jpg
+      - full_image: /images/_mg_4149-cu-2000.jpg
         caption: Slate tile floor for wood stove & patio door entry in new construction.
       - full_image: /images/_mg_4144-temp.jpg
         caption: Slate tile floor for wood stove & patio door entry in new construction.
