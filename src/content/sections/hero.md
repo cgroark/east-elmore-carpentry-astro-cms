@@ -1,6 +1,6 @@
 ---
 title: East Elmore Carpentry
-img: /images/counters.webp
+img: /images/arched-window-alters_19-web.jpg
 description: "East Elmore Carpentry offers many services, including:"
 service_items:
   - Fence
