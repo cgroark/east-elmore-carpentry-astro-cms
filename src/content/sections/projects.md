@@ -13,18 +13,10 @@ project_items:
     project_images:
       - full_image: /images/counters.webp
         caption: lasdjkflk;sajdflakjsdflkajskldfjasldkfjadslk
-  - title: Project 3
-    content: Againtt In reprehenderit in voluptate
+  - title: Arched Windows & Corner Niches
+    content: ""
     project_images:
-      - thumbnail_image: /images/benjamin-lehman-EJU7A__krX0-unsplash.jpg
-        full_image: /images/benjamin-lehman-EJU7A__krX0-unsplash.jpg
-        caption: Caption sample text
-      - thumbnail_image: /images/craft-kitties-GfYA6q5ESLI-unsplash.jpg
-        full_image: /images/craft-kitties-GfYA6q5ESLI-unsplash.jpg
-        caption: Caption sample text2
-      - thumbnail_image: /images/ricky-kharawala-4dVDBMAho8c-unsplash.jpg
-        full_image: /images/ricky-kharawala-4dVDBMAho8c-unsplash.jpg
-        caption: Caption sample text3
+      - full_image: /images/arched-window-alters_19-web.jpg
   - title: Project 4
     content: Againttee In reprehenderit in voluptate
     project_images:
