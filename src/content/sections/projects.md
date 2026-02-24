@@ -1,7 +1,7 @@
 ---
 title: Recent Projects
 project_items:
-  - title: Interior Divider Wall with Arched Windows & Corner Niches
+  - title: Interior Divider Wall with Arched Window & Corner Niches
     content: ""
     project_images:
       - full_image: /images/arched-window-alters_19-web.jpg
