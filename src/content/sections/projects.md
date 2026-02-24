@@ -10,6 +10,7 @@ project_items:
       - full_image: /images/arched-window-alters_29-web.jpg
         caption: New interior dividing wall with arched opening & custom corner niches.
           (plaster work by Sean Leahy)
+      - full_image: /images/arched-window-alters_32-web.jpg
   - title: Slate Floor - New Construction
     content: ""
     project_images:
