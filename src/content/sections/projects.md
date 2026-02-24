@@ -1,6 +1,12 @@
 ---
 title: Recent Projects
 project_items:
+  - title: Arched Windows & Corner Niches
+    content: ""
+    project_images:
+      - full_image: /images/arched-window-alters_19-web.jpg
+        caption: New interior dividing wall with arched opening & custom corner niches.
+          (plaster work by Sean Leahy)
   - title: Slate Floor - New Construction
     content: ""
     project_images:
@@ -13,10 +19,6 @@ project_items:
     project_images:
       - full_image: /images/counters.webp
         caption: lasdjkflk;sajdflakjsdflkajskldfjasldkfjadslk
-  - title: Arched Windows & Corner Niches
-    content: ""
-    project_images:
-      - full_image: /images/arched-window-alters_19-web.jpg
   - title: Project 4
     content: Againttee In reprehenderit in voluptate
     project_images:
