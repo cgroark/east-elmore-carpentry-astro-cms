@@ -14,10 +14,17 @@ export default function ImageCarousel({ images }) {
   return (
     <div className="carousel">
     <div className="carousel-image">
-      <img
-        src={image.thumbnail_image || image.full_image}
-        alt={image.caption || ""}
-      />
+      <a
+        href={image.full_image || image.thumbnail_image}
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ cursor: "pointer" }}
+      >
+        <img
+          src={image.thumbnail_image || image.full_image}
+          alt={image.caption || ""}
+        />
+      </a>
       {image.caption && (
         <p className="image-caption">{image.caption}</p>
       )}
