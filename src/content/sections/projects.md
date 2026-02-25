@@ -25,6 +25,7 @@ project_items:
       - full_image: /images/_mg_4149-cu-2000.jpg
         caption: Slate tile floor for wood stove & patio door entry in new construction.
       - full_image: /images/_mg_4146-web.jpg
+      - full_image: /images/_mg_4147-web.jpg
   - title: Concrete Countertop - New Construction
     content: null
     project_images:
