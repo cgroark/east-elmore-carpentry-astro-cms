@@ -6,26 +6,28 @@ project_items:
     project_images:
       - full_image: /images/arched-window-alters_19-web.jpg
         caption: New interior dividing wall with arched opening & custom corner niches.
-          (plaster work by __________)
+          (plaster work by Sean Leahy)
       - full_image: /images/arched-window-alters_29-web.jpg
         caption: New interior dividing wall with arched opening & custom corner niches.
-          (plaster work by __________)
+          (plaster work by Sean Leahy)
       - full_image: /images/arched-window-alters_32-webn.jpg
         caption: New interior dividing wall with arched opening & custom corner niches.
-          (plaster work by __________)
+          (plaster work by Sean Leahy)
       - full_image: /images/arched-window-alters_46-web.jpg
         caption: New interior dividing wall with arched opening & custom corner niches.
-          (plaster work by __________)
+          (plaster work by Sean Leahy)
       - full_image: /images/arched-window-alters_37-web.jpg
         caption: New interior dividing wall with arched opening & custom corner niches.
-          (plaster work by __________)
+          (plaster work by Sean Leahy)
   - title: Slate Floor - New Construction
     content: ""
     project_images:
       - full_image: /images/_mg_4149-cu-2000.jpg
         caption: Slate tile floor for wood stove & patio door entry in new construction.
       - full_image: /images/_mg_4146-web.jpg
+        caption: Slate tile floor for wood stove & patio door entry in new construction.
       - full_image: /images/_mg_4147-web.jpg
+        caption: Slate tile floor for wood stove & patio door entry in new construction.
   - title: Concrete Countertop - New Construction
     content: null
     project_images:
