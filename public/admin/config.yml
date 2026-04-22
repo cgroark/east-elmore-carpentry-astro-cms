@@ -66,8 +66,12 @@ collections:
         file: "src/content/sections/contact.md"
         fields:
           - { label: "Text Section", name: "textSection", widget: "string" }
-          - { label: "Phone Number", name: "phoneString", widget: "string" }
+          - { label: "Phone Number Text", name: "phoneString", widget: "string" }
+          - { label: "Phone Number", name: "phone", widget: "string" }
+          - { label: "Phone Number Text", name: "phoneString", widget: "string" }
+          - { label: "Email Text", name: "emailString", widget: "string" }
           - { label: "Email", name: "email", widget: "string" }
+          - { label: "FacebookLink", name: "facebookLink", widget: "string" }
           - { label: "Image", name: "logo", widget: "image", required: false }
 
       - label: "Footer Section"
@@ -80,18 +84,18 @@ collections:
           - { label: "Owner link", name: "ownerLink", widget: "string"}
 
   - name: "navigation"
-    label: "Navigation"
-    files:
-      - label: "Main Navigation"
-        name: "main-nav"
-        file: "src/content/navigation/main.md"
-        fields:
-          - {label: "Logo", name: "logo", widget: "image"}
-          - label: "Navigation Items"
-            name: "nav_items"
-            widget: "list"
-            fields:
-              - {label: "Label", name: "label", widget: "string"}
-              - {label: "Link", name: "href", widget: "string"}
+    label: "Navigation Items"
+    name: "nav_items"
+    widget: "list"
+    fields:
+    - { label: "Label", name: "label", widget: "string", required: false }
+    - { label: "Link", name: "href", widget: "string" }
+    - label: "Icon"
+      name: "icon"
+      widget: "select"
+      required: false
+      options:
+        - { label: "None", value: "" }
+        - { label: "Facebook", value: "facebook" }
 
 

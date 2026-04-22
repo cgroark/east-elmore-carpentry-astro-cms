@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import {PhoneOutgoingIcon, EnvelopeIcon, ListIcon, XIcon} from '@phosphor-icons/react';
+import {PhoneOutgoingIcon, EnvelopeIcon, ListIcon, XIcon, FacebookLogoIcon} from '@phosphor-icons/react';
 import ImageCarousel from '../components/ImageCarousel'
 
 // Import all sections
@@ -15,6 +15,9 @@ const navContent = await import('../content/navigation/main.md');
 const footer = footerContent.frontmatter;
 const contact = contactContent.frontmatter;
 const navigation = navContent.frontmatter;
+const icons = {
+  facebook: FacebookLogoIcon,
+};
 ---
 
 <Layout >
@@ -32,10 +35,24 @@ const navigation = navContent.frontmatter;
         </button>
 
         <ul class="nav-links">
-          {navigation.nav_items.map(item => (
-            <li><a href={item.href}>{item.label}</a></li>
-          ))}
-        </ul>
+					{navigation.nav_items.map((item) => {
+						const Icon = icons[item.icon];
+
+						return (
+							<li>
+								<a
+									href={item.href}
+									aria-label={item.label || item.icon}
+									target={Icon ? "_blank" : undefined}
+          				rel={Icon ? "noopener noreferrer" : undefined}
+								>
+									{Icon && <Icon size={24} style={{ marginRight: item.label ? "6px" : 0 }} />}
+									{item.label && <span>{item.label}</span>}
+								</a>
+							</li>
+						);
+					})}
+				</ul>
       </div>
     </nav>
 	<!-- Projects Section -->
@@ -72,6 +89,11 @@ const navigation = navContent.frontmatter;
           <a href={`mailto:${contact.email}`}>
             <EnvelopeIcon size={32} />
             {contact.email}
+          </a>
+        </div>
+        <div>
+          <a href={contact.facebookLink}>
+            <FacebookLogoIcon size={32} />
           </a>
         </div>
       </div>

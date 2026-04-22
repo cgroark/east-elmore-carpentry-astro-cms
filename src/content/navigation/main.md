@@ -9,4 +9,6 @@ nav_items:
     href: "/projects"
   - label: "Contact"
     href: "/about#contact"
+  - href: "https://facebook.com/yourpage"
+    icon: "facebook"
 ---
