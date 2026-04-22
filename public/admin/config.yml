@@ -85,7 +85,6 @@ collections:
 
   - name: "navigation"
     label: "Navigation Items"
-    name: "nav_items"
     widget: "list"
     fields:
     - { label: "Label", name: "label", widget: "string", required: false }
