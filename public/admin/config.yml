@@ -84,17 +84,27 @@ collections:
           - { label: "Owner link", name: "ownerLink", widget: "string"}
 
   - name: "navigation"
-    label: "Navigation Items"
-    widget: "list"
-    fields:
-    - { label: "Label", name: "label", widget: "string", required: false }
-    - { label: "Link", name: "href", widget: "string" }
-    - label: "Icon"
-      name: "icon"
-      widget: "select"
-      required: false
-      options:
-        - { label: "None", value: "" }
-        - { label: "Facebook", value: "facebook" }
+    label: "Navigation"
+    files:
+      - label: "Main Navigation"
+        name: "main-nav"
+        file: "src/content/navigation/main.md"
+        fields:
+          - { label: "Logo", name: "logo", widget: "image" }
+
+          - label: "Navigation Items"
+            name: "nav_items"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string", required: false }
+              - { label: "Link", name: "href", widget: "string" }
+
+              - label: "Icon"
+                name: "icon"
+                widget: "select"
+                required: false
+                options:
+                  - { label: "None", value: "" }
+                  - { label: "Facebook", value: "facebook" }
 
 
