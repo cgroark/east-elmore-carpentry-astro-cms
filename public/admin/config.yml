@@ -68,7 +68,6 @@ collections:
           - { label: "Text Section", name: "textSection", widget: "string" }
           - { label: "Phone Number Text", name: "phoneString", widget: "string" }
           - { label: "Phone Number", name: "phone", widget: "string" }
-          - { label: "Phone Number Text", name: "phoneString", widget: "string" }
           - { label: "Email Text", name: "emailString", widget: "string" }
           - { label: "Email", name: "email", widget: "string" }
           - { label: "FacebookLink", name: "facebookLink", widget: "string" }
